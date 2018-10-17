@@ -1,0 +1,38 @@
+selenium:
+    server: local
+    remote:
+        host: http://10.60.221.222:9898/wd/hub
+        port: 4444
+    browser: chrome
+    driverpath: "./src/test/resources/seleniumdriver/"
+    timeout: 60
+baseurl: http://10.86.1.96:1101/WebErp/
+logininfo:
+    username: RANOREX
+    password: RANOREX  
+testenv: qa
+proConceptUrl: http://10.86.1.96:1101/WebErp/
+
+##########################################################################################
+#
+#******* Testdata for Pro Concept*******
+#
+########################################################################################## 
+
+ProConceptProductCreation:
+  SecondaryReference: "TEST1"
+  ShortDescription: TEST1 
+   
+ ##########################################################################################
+#
+#******* Configurations for Email Module  *******
+#
+##########################################################################################
+
+results:
+   sendEmail: "yes"
+   recipients: 
+       recipient1: chiranth.v@jeeves.se.com
+       recipient1: chiranth.v@jeeves.se.com      
+  
+    

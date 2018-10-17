@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicked on: Ok]]>
+    </line>
+    <line>
+      <![CDATA[WebErp]]>
+    </line>
+    <line>
+      <![CDATA[User logged in PRO-CONCEPT successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: ERP]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: Logistics]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: Goods management]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: Goods development]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: Products]]>
+    </line>
+    <line>
+      <![CDATA[User navigated to Product Page successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Proconcept Automation suite" duration-ms="45176" started-at="2018-10-16T10:59:40Z" finished-at="2018-10-16T11:00:25Z">
+    <groups>
+    </groups>
+    <test name="Proconcept Test" duration-ms="45176" started-at="2018-10-16T10:59:40Z" finished-at="2018-10-16T11:00:25Z">
+      <class name="com.edu.Test.ProConceptProductCreationTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.edu.Test.ProConceptProductCreationTest@2c9f9fb0]" name="setUpClass" is-config="true" duration-ms="8501" started-at="2018-10-16T16:29:40Z" finished-at="2018-10-16T16:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.edu.Test.ProConceptProductCreationTest@2c9f9fb0]" name="init" is-config="true" duration-ms="3" started-at="2018-10-16T16:29:48Z" finished-at="2018-10-16T16:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="TC001_LaunchProconceptURL()[pri:0, instance:com.edu.Test.ProConceptProductCreationTest@2c9f9fb0]" name="TC001_LaunchProconceptURL" duration-ms="24459" started-at="2018-10-16T16:29:48Z" finished-at="2018-10-16T16:30:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on: Ok]]>
+            </line>
+            <line>
+              <![CDATA[WebErp]]>
+            </line>
+            <line>
+              <![CDATA[User logged in PRO-CONCEPT successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC001_LaunchProconceptURL -->
+        <test-method status="PASS" signature="captureScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.edu.Test.ProConceptProductCreationTest@2c9f9fb0]" name="captureScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-10-16T16:30:13Z" finished-at="2018-10-16T16:30:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC001_LaunchProconceptURL status=SUCCESS method=ProConceptProductCreationTest.TC001_LaunchProconceptURL()[pri:0, instance:com.edu.Test.ProConceptProductCreationTest@2c9f9fb0] output=Clicked on: Ok]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShotOnFailure -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.edu.Test.ProConceptProductCreationTest@2c9f9fb0]" name="init" is-config="true" duration-ms="1" started-at="2018-10-16T16:30:13Z" finished-at="2018-10-16T16:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="TC002_NavigateToProduct()[pri:0, instance:com.edu.Test.ProConceptProductCreationTest@2c9f9fb0]" name="TC002_NavigateToProduct" duration-ms="11283" started-at="2018-10-16T16:30:13Z" depends-on-methods="com.edu.Test.ProConceptProductCreationTest.TC001_LaunchProconceptURL" finished-at="2018-10-16T16:30:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on: ERP]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: Logistics]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: Goods management]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: Goods development]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: Products]]>
+            </line>
+            <line>
+              <![CDATA[User navigated to Product Page successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC002_NavigateToProduct -->
+        <test-method status="PASS" signature="captureScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.edu.Test.ProConceptProductCreationTest@2c9f9fb0]" name="captureScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-10-16T16:30:24Z" finished-at="2018-10-16T16:30:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC002_NavigateToProduct status=SUCCESS method=ProConceptProductCreationTest.TC002_NavigateToProduct()[pri:0, instance:com.edu.Test.ProConceptProductCreationTest@2c9f9fb0] output=Clicked on: ERP]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShotOnFailure -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.edu.Test.ProConceptProductCreationTest@2c9f9fb0]" name="tearDownClass" is-config="true" duration-ms="903" started-at="2018-10-16T16:30:24Z" finished-at="2018-10-16T16:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.edu.Test.ProConceptProductCreationTest -->
+    </test> <!-- Proconcept Test -->
+  </suite> <!-- Proconcept Automation suite -->
+</testng-results>

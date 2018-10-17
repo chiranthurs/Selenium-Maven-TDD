@@ -1,0 +1,262 @@
+selenium:
+    server: remote
+    remote:
+        host: http://10.60.221.222:9898/wd/hub
+        port: 4444
+    browser: firefox
+    driverpath: "./src/test/resources/seleniumdriver/"
+    timeout: 60
+    
+baseurl: https://castor.sit.com/cb/
+testenv: qa
+#castorUrl: http://castor-plmat.hm.com/
+castorUrl: http://castor-plmsit.hm.com/
+
+
+preplanUrl: http://productplan.sit.hm.com/
+##########################################################################################
+#
+#******* Testdata for preplan*******
+#
+########################################################################################## 
+
+ProductInfoFlow1:
+  season: 8-2018
+  section: "02 - H&M+"
+  department: "1919 - Jersey"
+  product: Daisy Lace top
+  sellprice: 24.99
+  article1: 09-090
+  article2: 10-201
+  articletype: 990 -
+  productclassification: Othertop - Top
+  graphicalappearance: Lace
+  weekno: 21
+  salestype: 990 -
+  fmvalue: "*"
+  TypeOfConstruction: Woven
+  CustomsCustomerGroup: Women
+  Quantity1: 55000
+  Quantity2: 45000
+
+ProductInfoFlow2:
+   season: 8-2018
+   section: "02 - H&M+"
+   department: "1919 - Jersey"
+   product: Daisy Lace top
+   sellprice: 19.99
+   article1: 13-101
+   article2: 14-101
+   articletype: 990 -
+   productclassification: Othertop - Top
+   graphicalappearance: Lace
+   weekno: 21
+   salestype: 990 -
+   fmvalue: "?"
+   TypeOfConstruction: Woven
+   CustomsCustomerGroup: Women
+  
+ProductInfoFlow3:
+   season: 8-2018
+   section: "02 - H&M+"
+   department: "1919 - Jersey"
+   product: Daisy Lace top
+   sellprice: 19.99
+   article1: 10-100
+   article2: 12-101
+   articletype: 990 -
+   productclassification: Othertop - Top
+   graphicalappearance: Lace
+   weekno1: 21
+   weekno2: 26
+   salestype: 990 -
+   fmvalue: "?"
+   TypeOfConstruction: Woven
+   CustomsCustomerGroup: Women
+   RoughPlanQuantity1: 3321
+   RoughPlanQuantity2: 1121
+   
+ProductInfoFlow4:
+   season: 8-2018
+   section: "02 - H&M+"
+   department: "1919 - Jersey"
+   product: Daisy Lace top
+   sellprice: 19.99
+   article1: 45-301
+   article2: 09-090
+   articletype: 990 -
+   productclassification: Othertop - Top
+   graphicalappearance: Lace
+   weekno1: 21
+   weekno2: 26
+   salestype: 990 -
+   fmvalue: "?"
+   TypeOfConstruction: Woven
+   CustomsCustomerGroup: Women
+   ExclPMQuantity: 35185
+   RoughPlanQuantity: 11254
+
+ 
+##########################################################################################
+#
+#******* Testdata for Castor Buyer*******
+#
+########################################################################################## 
+
+
+loginInfo:
+  castorBuyer:
+    username: hmtest
+    password: HMTEST
+    
+  GPOO:
+    username: hmtest
+    password: HMTEST
+    
+    
+  CNGZ:
+    username: hmtest
+    password: HMTEST        
+    
+    
+#    username: TestEverything
+#    password: castor    
+    
+productDevlopment:
+  productName: Daisy Lace top
+  office: SEBO
+  season: 8-2018
+  department: 3209
+  Concept: Ladies Acc belts shoes bags
+  ProductType: Other accessories - Accessories
+  phase: Quotation
+  purposeOfDev: Lace quality
+  valueDriver: Lace
+  notes: Planning 2 articles
+  targetPrice: 10.20
+  Currency: USD
+  
+AddRowPlanDelivery:
+  Quantity: 90000
+  Date: 23-Jan-2018
+  
+  
+# Date format should be DD/mmm/yyyy  
+  
+Mchart:
+  ID: "002-58695-3"
+  
+userInfoToPublish: HM TEST
+
+Appearance:
+  GraphicalAppearance: Lace
+  List:
+      - "11-107"
+      - "10-201"
+      - "09-090"
+      
+ComponentDevelopment: 10864
+LabelID: "01"
+Image: ABI-shoppe
+office: GPOO
+
+
+##########################################################################################
+#
+#******* Testdata for Castor GPOO Merchant*******
+#
+########################################################################################## 
+
+Merchant:
+  Options:
+    RenameGroup: Regular lining
+    ProductionGroup: Woven
+    ProductionType: Blouses
+    ProductionAppearance: Fancy - Blouse
+    Country: China
+    
+    BOMSearchID: 2108650
+    position: Shell
+    office: CNGZ
+    
+Disconnect:
+  List:
+      - "11-107"
+      - "10-201" 
+      
+Connect:
+  List:
+      - "09-090"
+      
+Option:
+  CopyName: Extra lining
+  
+
+##########################################################################################
+#
+#******* Testdata for Castor CNGZ Merchant*******
+#
+########################################################################################## 
+  
+CNGZMerchant:
+  Header:
+    Weight: 200
+    Supplier1: 100385
+    Supplier2: 106771
+    
+  options:
+    country: China
+  BOM:
+    placement: "BASE FABRIC "
+    OriginCountry: China
+    
+  HopLundRegularliningOption:
+    Material: 8,40
+    Trim: 0,75
+    Labour: 0,80
+    Finishing: 0,35
+    Labels: 0,10
+    Overhead: 0,10
+    TotalUSD: 10,50
+    
+  HopLundExtraliningOption:
+    Material: 8,70
+    Trim: 0,80
+    Labour: 0,80
+    Finishing: 0,35
+    Labels: 0,10
+    Overhead: 0,10
+    TotalUSD: 10,85
+    
+        
+  CrystalMartinRegularliningOption:
+    Material: 7,80
+    Trim: 0,85
+    Labour: 0,80
+    Finishing: 0,35
+    Labels: 0,10
+    Overhead: 0,10
+    TotalUSD: 10,00
+    
+  CrystalMartinliningOption:
+    Material: 8,80
+    Trim: 0,85
+    Labour: 0,80
+    Finishing: 0,35
+    Labels: 0,10
+    Overhead: 0,10
+    TotalUSD: 11,00
+    
+   
+    
+##########################################################################################
+#
+#******* Configurations for Email Module  *******
+#
+##########################################################################################
+
+results:
+   sendEmail: "yes"
+   recipients: 
+       recipient1: shivam.tiwari@hm.com
+       recipient1: shivam.tiwari1@hm.com       

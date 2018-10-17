@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Proconcept Automation suite]">
+  <test name="Proconcept Test(failed)">
+    <classes>
+      <class name="com.edu.Test.ProConceptProductCreationTest">
+        <methods>
+          <include name="captureScreenShotOnFailure"/>
+          <include name="tearDownClass"/>
+          <include name="TC002_NavigateToProduct"/>
+          <include name="init"/>
+          <include name="TC001_LaunchProconceptURL"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.edu.Test.ProConceptProductCreationTest -->
+    </classes>
+  </test> <!-- Proconcept Test(failed) -->
+</suite> <!-- Failed suite [Proconcept Automation suite] -->

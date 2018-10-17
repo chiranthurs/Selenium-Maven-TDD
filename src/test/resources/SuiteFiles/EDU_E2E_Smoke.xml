@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EDU Automation suite">
+	<test name="Castor E2E" preserve-order="true">
+		<classes>
+			<class name="com.edu.Test.CastorProductDevlopmentTest" />
+
+		</classes>
+	</test>
+
+	<test name="Product Plan E2E Data Flow 1" preserve-order="true">
+		<classes>
+			<class name="com.edu.Test.ProductPlanFlow1Test" />
+		</classes>
+	</test>
+
+	<test name="Product Plan E2E Data Flow 2" preserve-order="true">
+		<classes>
+			<class name="com.edu.Test.ProductPlanFlow2Test" />
+		</classes>
+	</test>
+
+	<test name="Product Plan E2E Data Flow 3" preserve-order="true">
+		<classes>
+			<class name="com.edu.Test.ProductPlanFlow3Test" />
+		</classes>
+	</test>
+
+	<test name="Product Plan E2E Data Flow 4" preserve-order="true">
+		<classes>
+			<class name="com.edu.Test.ProductPlanFlow4Test" />
+		</classes>
+	</test>
+
+</suite> 
